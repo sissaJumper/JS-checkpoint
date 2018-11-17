@@ -1,0 +1,10 @@
+
+.button{  
+    display: inline-block;
+}
+#text{
+    display: block;
+    width: 50%;
+    margin-top: 2%;
+
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<link rel="stylesheet" href="css/style.css"> 
+    <title>JS Checkpoint</title>
+</head>
+<body>
+
+  
+</body>
+<div>
+
+        <div class="button"><button  onclick="myBold()">Bold me</button></div>
+        <div class="button"><button  onclick="myItalic()">Italic</button></div>
+        <div class="button"><button  onclick="myUnderline()">underline</button></div>
+        
+        <select id="fonts" onchange="Myfonts()">
+                <option value="Helvetica">Helvetica</option>
+                <option value="Courier">Courier</option>
+                <option value="Verdana">Verdana</option>
+                <option value="Tahoma">Tahoma</option>
+         </select>
+
+         <select id="fontsWeight" onchange="MyfontsWeight()">
+                <option value="10px">10px</option>
+                <option value="20px">20px</option>
+                <option value="30px">30px</option>
+                <option value="40px">40px</option>
+         </select>
+</div>
+
+<div id="text">
+    We're going to make a program that looks like Microsoft Word.
+
+    There will be one paragrah and a bunch of buttons.
+    
+    Each button will have an onclick attribute that will link to a different javascript function.
+</div>
+
+<script src="js/main.js"></script>
+
+</html>
